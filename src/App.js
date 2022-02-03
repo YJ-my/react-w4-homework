@@ -18,6 +18,7 @@ function App() {
 ///////////데이터 추가하기////////////////////
     // addDoc(collection(db, "dictdata"),{word:"like", ....이런식으로 추가하면 돼}
     // });
+    
 //////////파이어베이스에 내가 넣은 값 잘 가져와졌나 확인하는거/////////////    
 //     //작업이 끝나고 결과를 가져 올 때까지 기다리는 애 (async랑 await는 짝꿍)
 //     const query = await getDocs(collection(db, "dictdata"));

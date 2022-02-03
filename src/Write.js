@@ -59,6 +59,7 @@ function Write(){
                 inputRef={exmean}
                 />
             </div>
+            <br></br>
 
             <Button variant="outlined" color="error"
                 onClick={() => {

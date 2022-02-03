@@ -40,10 +40,13 @@
 .textbox{
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 30%;
   margin: auto;
 }
 
+/* .text>span:last-child {
+  color:blue
+} */
 .writebutton {
   width: 55px;
   height: 55px;
@@ -56,9 +59,35 @@
   z-index: 1;
 }
 
+.writebutton > i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+
 .check{
   width: 20px;
   height: 20px;
-  background-color: bisque;
+  cursor: pointer;
   
+}
+
+.wordBox {
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  width: 73%;
+
+  /* flex-flow: row wrap; */
+  flex-wrap:wrap;
+  justify-content: center;
+  /* -webkit-box-pack: start;
+  justify-content: flex-start; */
+  gap: 10px;
+}
+
+#standard-error {
+  margin-bottom: 15px;
 }
